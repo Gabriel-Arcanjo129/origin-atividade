@@ -1,0 +1,33 @@
+Gabriel Arcanjo de Oliveira Lopes
+
+$ mkdir ifrn-ead
+$ cd ifrn-ead
+$ git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+$ touch texto.txt
+$ vim texto.txt
+$ git init
+$ git add curso-branchs-ifrn-ead
+$ git add texto.txt
+$ git commit -m "First Commit"
+$ git branch feature-1
+$ git switch feature-1
+$ vim texto.txt
+$ git add texto.txt
+$ git commit -m "modificação em texto.txt"
+$ git switch main
+$ vim texto.txt
+$ git add texto.txt
+$ git commit -m "modificação em texto.txt"
+$ git merge feature-1
+$ vim texto.txt
+$ git add texto.txt
+$ git commit -m "mesclar lorem ipsum e sample text"
+$ git branch add-commandos
+$ git switch add-commandos
+$ touch comandos.txt
+$ vim comandos.txt
+$ git add comandos.txt
+$ git commit -m "comandos adicionados"
+$ git remote add origin-atividade https://github.com/Gabriel-Arcanjo129/origin-atividade.git
+$ git push -u origin-atividade main
+$ git push -u origin-atividade add-comandos
